@@ -1,0 +1,84 @@
+Truncating to t_end=440
+Truncating to t_end=455
+Truncating to t_end=470
+Truncating to t_end=485
+Truncating to t_end=500
+# of modules before nloc filtering: 59
+# of modules after nloc filtering: 59
+offset summary
+count    59.000000
+mean      0.692357
+std       1.993871
+min      -2.900422
+25%      -0.552652
+50%       0.538246
+75%       1.712212
+max       7.198635
+dtype: float64
+modules: 59
+random effect dim: 59
+Fitting baseline NHPP models for t_end=440 with 59 modules...
+[baseline] 440->455 MAE: 230.13324804630452
+Fitting baseline NHPP models for t_end=455 with 59 modules...
+[baseline] 455->470 MAE: 588.6959444079712
+Fitting baseline NHPP models for t_end=470 with 59 modules...
+[baseline] 470->485 MAE: 416.82006223389766
+Fitting baseline NHPP models for t_end=485 with 59 modules...
+[baseline] 485->500 MAE: 643.6598225946422
+[lambda] 440->455 lambda=0.1 prederr=226.73869244834177
+[lambda] 440->455 lambda=0.3 prederr=226.72767020142777
+[lambda] 440->455 lambda=1.0 prederr=226.68779793824672
+[lambda] 440->455 lambda=3.0 prederr=226.56392151429682
+[lambda] 440->455 lambda=10.0 prederr=226.13402818566806
+[lambda] 440->455 lambda=30.0 prederr=225.5464959601797
+[lambda] 440->455 lambda=100.0 prederr=224.86918941433413
+[lambda] 440->455 lambda=200.0 prederr=224.7620998002872
+[lambda] 440->455 lambda=250.0 prederr=223.46439611912365
+[lambda] 440->455 lambda=300.0 prederr=222.04139356503197
+[lambda] 440->455 lambda=350.0 prederr=221.1842336459129
+[lambda] 440->455 lambda=400.0 prederr=220.6777963214875
+[lambda] 440->455 lambda=500.0 prederr=220.3477608482857
+[lambda] 440->455 lambda=700.0 prederr=218.9482163225044
+[lambda] 455->470 lambda=0.1 prederr=588.7925325084951
+[lambda] 455->470 lambda=0.3 prederr=588.7779661450652
+[lambda] 455->470 lambda=1.0 prederr=588.7286134003344
+[lambda] 455->470 lambda=3.0 prederr=588.6013121682448
+[lambda] 455->470 lambda=10.0 prederr=588.287535743273
+[lambda] 455->470 lambda=30.0 prederr=588.0282103893649
+[lambda] 455->470 lambda=100.0 prederr=587.9967954853445
+[lambda] 455->470 lambda=200.0 prederr=587.7554055031936
+[lambda] 455->470 lambda=250.0 prederr=588.1810857453838
+[lambda] 455->470 lambda=300.0 prederr=588.4815938491885
+[lambda] 455->470 lambda=350.0 prederr=588.6998334590506
+[lambda] 455->470 lambda=400.0 prederr=588.8792771158355
+[lambda] 455->470 lambda=500.0 prederr=589.231749061866
+[lambda] 455->470 lambda=700.0 prederr=590.3940774199536
+[lambda] 470->485 lambda=0.1 prederr=420.02856683128545
+[lambda] 470->485 lambda=0.3 prederr=420.0048095477516
+[lambda] 470->485 lambda=1.0 prederr=419.9218942887471
+[lambda] 470->485 lambda=3.0 prederr=419.6936075231373
+[lambda] 470->485 lambda=10.0 prederr=418.9071269153894
+[lambda] 470->485 lambda=30.0 prederr=417.4593933594018
+[lambda] 470->485 lambda=100.0 prederr=415.77684667233126
+[lambda] 470->485 lambda=200.0 prederr=416.03763329769686
+[lambda] 470->485 lambda=250.0 prederr=416.5670332564689
+[lambda] 470->485 lambda=300.0 prederr=415.656975225309
+[lambda] 470->485 lambda=350.0 prederr=415.5941691295851
+[lambda] 470->485 lambda=400.0 prederr=415.60798917752663
+[lambda] 470->485 lambda=500.0 prederr=416.43941763112855
+[lambda] 470->485 lambda=700.0 prederr=417.12882350265136
+[lambda] 485->500 lambda=0.1 prederr=652.3758017764467
+[lambda] 485->500 lambda=0.3 prederr=652.3892953222775
+[lambda] 485->500 lambda=1.0 prederr=652.4358586585017
+[lambda] 485->500 lambda=3.0 prederr=652.5652726264586
+[lambda] 485->500 lambda=10.0 prederr=652.8406560885458
+[lambda] 485->500 lambda=30.0 prederr=652.6501070561321
+[lambda] 485->500 lambda=100.0 prederr=651.4901107155088
+[lambda] 485->500 lambda=200.0 prederr=650.9140960577869
+[lambda] 485->500 lambda=250.0 prederr=651.5089053025245
+[lambda] 485->500 lambda=300.0 prederr=652.0844577294204
+[lambda] 485->500 lambda=350.0 prederr=652.0664019045093
+[lambda] 485->500 lambda=400.0 prederr=652.9404597705555
+[lambda] 485->500 lambda=500.0 prederr=652.4509699634991
+[lambda] 485->500 lambda=700.0 prederr=650.9656166169617
+Best lambda per step: [(440, 455, 700.0, np.float64(218.9482163225044)), (455, 470, 200.0, np.float64(587.7554055031936)), (470, 485, 350.0, np.float64(415.5941691295851)), (485, 500, 200.0, np.float64(650.9140960577869))]

@@ -1,0 +1,25 @@
+module:
+  root_src: "PX4-Autopilot/src"
+  git_root: "PX4-Autopilot"
+  git_subdir: "src"
+  depth: 2
+
+outputs:
+  embeddings_jsonl: "group_embeddings.jsonl"
+  commits_by_module_week_csv: "commits_by_module_week.csv"
+  module_metrics_csv: "module_metrics.csv"
+  faultdata_dir: "faultdata"
+
+rle:
+  start: "2016-W06"
+  until: "2025-W45"
+
+embedding:
+  model: "text-embedding-3-small"
+  weight_mode: "loc"
+
+lizard:
+  csv: "lizard.csv"
+  root: null
+  languages: ["c", "cpp", "python"]
+  extra_args: []

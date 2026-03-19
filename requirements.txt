@@ -1,0 +1,23 @@
+# config
+PyYAML==6.0.3
+
+# pipeline
+lizard==1.21.0
+openai==2.24.0
+
+# analysis notebook
+pandas==2.3.3
+numpy==2.0.2
+scikit-learn==1.6.1
+pysrat==0.2.5
+joblib==1.5.3
+matplotlib==3.9.4
+
+# utilities
+python-dotenv==1.2.1
+
+# code analysis (GitHub)
+code-analysis @ git+https://github.com/SwReliab/code-analysis.git@52136320e4b6eebd84fa6a1c246a6d584477a1f7
+
+# deep learning
+torch==2.8.0

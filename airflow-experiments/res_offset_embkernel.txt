@@ -1,0 +1,80 @@
+Truncating to t_end=440
+Truncating to t_end=455
+Truncating to t_end=470
+Truncating to t_end=485
+Truncating to t_end=500
+# of modules before nloc filtering: 46
+# of modules after nloc filtering: 46
+offset summary
+count    46.000000
+mean     -0.986866
+std       1.794938
+min      -4.017384
+25%      -2.148181
+50%      -0.968908
+75%      -0.160605
+max       4.809824
+dtype: float64
+modules: 46
+embedding dim: 1536 gram dim: 46
+[baseline] 440->455 MAE: 423.22451165015985
+[baseline] 455->470 MAE: 268.03104175564806
+[baseline] 470->485 MAE: 180.17967217781967
+[baseline] 485->500 MAE: 107.52170293806165
+[lambda] 440->455 lambda=0.1 prederr=423.3545392979402
+[lambda] 440->455 lambda=0.3 prederr=422.72990220107994
+[lambda] 440->455 lambda=1.0 prederr=421.1247672899941
+[lambda] 440->455 lambda=3.0 prederr=418.9136586473355
+[lambda] 440->455 lambda=10.0 prederr=417.4418859551676
+[lambda] 440->455 lambda=30.0 prederr=416.90943936051247
+[lambda] 440->455 lambda=100.0 prederr=424.8976875916753
+[lambda] 440->455 lambda=200.0 prederr=432.87192592470205
+[lambda] 440->455 lambda=250.0 prederr=435.09339570081767
+[lambda] 440->455 lambda=300.0 prederr=435.605629222151
+[lambda] 440->455 lambda=350.0 prederr=438.01942581906246
+[lambda] 440->455 lambda=400.0 prederr=439.8085237702053
+[lambda] 440->455 lambda=500.0 prederr=446.5801983787179
+[lambda] 440->455 lambda=700.0 prederr=445.26011498259464
+[lambda] 455->470 lambda=0.1 prederr=267.77414392349306
+[lambda] 455->470 lambda=0.3 prederr=267.72436569761965
+[lambda] 455->470 lambda=1.0 prederr=267.5716930380916
+[lambda] 455->470 lambda=3.0 prederr=267.282995981279
+[lambda] 455->470 lambda=10.0 prederr=267.8535343067607
+[lambda] 455->470 lambda=30.0 prederr=266.27085368737323
+[lambda] 455->470 lambda=100.0 prederr=268.53723689025946
+[lambda] 455->470 lambda=200.0 prederr=275.312645796437
+[lambda] 455->470 lambda=250.0 prederr=275.27545847718386
+[lambda] 455->470 lambda=300.0 prederr=276.59080419814916
+[lambda] 455->470 lambda=350.0 prederr=277.63276172824374
+[lambda] 455->470 lambda=400.0 prederr=279.01159615657866
+[lambda] 455->470 lambda=500.0 prederr=285.30270606571605
+[lambda] 455->470 lambda=700.0 prederr=284.0986622938154
+[lambda] 470->485 lambda=0.1 prederr=180.16487114889546
+[lambda] 470->485 lambda=0.3 prederr=180.2033522874697
+[lambda] 470->485 lambda=1.0 prederr=180.30363519502953
+[lambda] 470->485 lambda=3.0 prederr=180.46266095865627
+[lambda] 470->485 lambda=10.0 prederr=180.97332024643214
+[lambda] 470->485 lambda=30.0 prederr=181.89258175971977
+[lambda] 470->485 lambda=100.0 prederr=182.39151250184216
+[lambda] 470->485 lambda=200.0 prederr=186.3567989212575
+[lambda] 470->485 lambda=250.0 prederr=186.30735672248395
+[lambda] 470->485 lambda=300.0 prederr=187.39218968061093
+[lambda] 470->485 lambda=350.0 prederr=187.72493028214592
+[lambda] 470->485 lambda=400.0 prederr=187.95799425465512
+[lambda] 470->485 lambda=500.0 prederr=191.9689873775499
+[lambda] 470->485 lambda=700.0 prederr=194.85884932433075
+[lambda] 485->500 lambda=0.1 prederr=107.45655357480277
+[lambda] 485->500 lambda=0.3 prederr=107.49382842232241
+[lambda] 485->500 lambda=1.0 prederr=107.64553823133545
+[lambda] 485->500 lambda=3.0 prederr=107.96703935806039
+[lambda] 485->500 lambda=10.0 prederr=108.38562366338886
+[lambda] 485->500 lambda=30.0 prederr=110.09641982656723
+[lambda] 485->500 lambda=100.0 prederr=111.53999080777183
+[lambda] 485->500 lambda=200.0 prederr=113.67102327311535
+[lambda] 485->500 lambda=250.0 prederr=112.90160299809972
+[lambda] 485->500 lambda=300.0 prederr=113.28498840951386
+[lambda] 485->500 lambda=350.0 prederr=113.64693228282039
+[lambda] 485->500 lambda=400.0 prederr=113.95349669108757
+[lambda] 485->500 lambda=500.0 prederr=114.46618289034859
+[lambda] 485->500 lambda=700.0 prederr=115.49909560229565
+Best lambda per step: [(440, 455, 30.0, np.float64(416.90943936051247)), (455, 470, 30.0, np.float64(266.27085368737323)), (470, 485, 0.1, np.float64(180.16487114889546)), (485, 500, 0.1, np.float64(107.45655357480277))]

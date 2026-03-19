@@ -1,0 +1,10 @@
+python ../scripts/runall_offset_embkernel.py | tee res_offset_embkernel.txt
+python ../scripts/runall_offset_metrics.py | tee res_offset_metrics.txt
+python ../scripts/runall_offset_embpca.py | tee res_offset_embpca.txt
+python ../scripts/runall_offset_id_embkernel.py | tee res_offset_id_embkernel.txt
+python ../scripts/runall_offset_id_metkernel.py | tee res_offset_id_metkernel.txt
+python ../scripts/runall_offset_identity.py | tee res_offset_identity.txt
+python ../scripts/runall_offset_metkernel.py | tee res_offset_metkernel.txt
+python ../scripts/runall_offset_metpca.py | tee res_offset_metpca.txt
+python ../scripts/runall_offset_metrics_embkernel_re.py | tee res_offset_metrics_embkernel_re.txt
+python ../scripts/runall_offset_metrics_re.py | tee res_offset_metrics_re.txt

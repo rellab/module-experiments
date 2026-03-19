@@ -1,0 +1,25 @@
+module:
+  root_src: "linux/drivers/net"
+  git_root: "linux"
+  git_subdir: "drivers/net"
+  depth: 1
+
+outputs:
+  embeddings_jsonl: "group_embeddings.jsonl"
+  commits_by_module_week_csv: "commits_by_module_week.csv"
+  module_metrics_csv: "module_metrics.csv"
+  faultdata_dir: "faultdata"
+
+rle:
+  start: "2015-W16"
+  until: "2024-W46"
+
+embedding:
+  model: "text-embedding-3-small"
+  weight_mode: "loc"
+
+lizard:
+  csv: "lizard.csv"
+  root: null
+  languages: ["c", "cpp", "python"]
+  extra_args: []
